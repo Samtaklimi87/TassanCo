@@ -30,12 +30,12 @@ const Navbar = ({ toggle }) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth={true} duration={1000} spy={true} to="/id2" activeStyle>
+              <NavLink smooth={true} duration={1000} spy={true} to="id2" >
                 First Page comes here ! 
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth={true} duration={1000} spy={true} to="/id3" activeStyle>
+              <NavLink smooth={true} duration={1000} spy={true} to="id3" >
                 Second Page comes here !!
               </NavLink>
             </NavItem>

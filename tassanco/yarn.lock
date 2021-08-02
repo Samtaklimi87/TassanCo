@@ -9318,6 +9318,18 @@
   "resolved" "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
+"react-icon-base@1.0.0":
+  "integrity" "sha1-VpLUlafPNA/PZkuMTUo2nFZGfqU="
+  "resolved" "https://registry.npmjs.org/react-icon-base/-/react-icon-base-1.0.0.tgz"
+  "version" "1.0.0"
+
+"react-icons-md@^1.1.0":
+  "integrity" "sha1-epsC/hybbca0+TvVzF3CwTpgR6k="
+  "resolved" "https://registry.npmjs.org/react-icons-md/-/react-icons-md-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "react-icon-base" "1.0.0"
+
 "react-icons@^4.2.0":
   "integrity" "sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.2.0.tgz"

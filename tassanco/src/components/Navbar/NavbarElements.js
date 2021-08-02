@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import { FaBars } from "react-icons/fa";
-import Col from "../Colors";
+import COL from "../Colors";
 
 export const Nav = styled.nav`
   background: ${COL.navBackgroundColor};
   height: 80px;
-  margin-top: -80px;
+  // margin-top: -80px;
   display: flex;
   justify-content: center;
   align-item: center;
