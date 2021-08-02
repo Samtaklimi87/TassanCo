@@ -66,7 +66,7 @@ const Footer = () => {
             <SocialMediaWrap>
               <SocialLogo to="/">Logo</SocialLogo>
               <WebsiteRights>
-                Saeed Najafi © {new Date().getFullYear()} All rights reserved.
+                Sam Taklimi © {new Date().getFullYear()} All rights reserved.
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink href="//https://www.facebook.com/profile.php?id=100071140221834" target="_blank" aria-label="Facebook">
