@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar"
-import Sidebar from "../components/SideBar"
+import Navbar from "../Navbar"
+import Sidebar from "../SideBar"
 
 const Home = () => {
     return (
