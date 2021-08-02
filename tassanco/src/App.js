@@ -6,6 +6,7 @@ import Home from "./components/pages/index";
 import Page2 from "./components/pages/Page2";
 // import About from './pages';
 import SideBar from "./components/SideBar";
+import SignIn from "./components/pages/Signin";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         {/* <Route path="/page1" component={Page1} /> */}
-        <Route path="/page2" component={Page2} />
+        <Route path="/signin" component={SignIn} />
         {/* <Route path="/page3" component={Page3} /> */}
       </Switch>
     </Router>

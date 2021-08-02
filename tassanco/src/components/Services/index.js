@@ -36,7 +36,7 @@ const ServicesElements = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
-            <ServicesH2>Our Gallery</ServicesH2>
+            <ServicesH2>Our Gallery to visit can be  find here </ServicesH2>
             <ServicesP>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s.

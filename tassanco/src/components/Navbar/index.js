@@ -9,6 +9,7 @@ import {
   NavbarContainer,
   NavLogo,
   MobileIcon,
+  NavLogoLink,
   NavItem,
 } from "./NavbarElements";
 import logo from "../../images/tassan-logo1.jpg";
@@ -19,7 +20,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/"> somelogo </NavLogo>
+          <NavLogoLink smooth={true} duration={1000} spy={true} to="home"> somelogo </NavLogoLink>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -31,21 +32,25 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLink smooth={true} duration={1000} spy={true} to="id2" >
-                First Page comes here ! 
+                Second Page comes here ! 
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink smooth={true} duration={1000} spy={true} to="id3" >
-                Second Page comes here !!
+                Third Page comes here !!
               </NavLink>
             </NavItem>
-            
+            <NavItem>
+              <NavLink smooth={true} duration={1000} spy={true} to="services">
+                Services
+              </NavLink>
+            </NavItem>
             <NavBtn>
                 <NavBtnLink
                   onClick={() => {
                       console.log("pressed");
                   }} 
-                  to="/page2"
+                  to="/signin"
                   >
                      Click Here 
                 </NavBtnLink>

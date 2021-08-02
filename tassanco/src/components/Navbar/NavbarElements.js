@@ -7,13 +7,13 @@ import COL from "../Colors";
 export const Nav = styled.nav`
   background: ${COL.navBackgroundColor};
   height: 80px;
-  // margin-top: -80px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-item: center;
   font-size: 1rem;
-  position: stikcy;
-  position: -webkit-sticky;
   top: 0; /* required */
   z-index: 10;
   // padding: 0.5rem calc((100vw - 1000px) / 2);
@@ -35,7 +35,7 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled(LinkR)`
   color :  ${COL.logoTextColor};
-  //color: #fff;
+  // color: #fff;
   justify-content: flex-start;
   display: flex;
   cursor: pointer;
@@ -74,7 +74,7 @@ export const Bars = styled(FaBars)`
     font-size: 1.8rem;
     cursor: pointer;
     color: ${COL.iconColro};
-    //color: #fff;
+    // color: #fff;
   }
 `;
 
@@ -92,6 +92,30 @@ export const NavMenu = styled.div`
 
 export const NavItem = styled.li`
   height: 80px;
+`;
+
+export const NavLogoLink = styled(LinkS)`
+  // color: ${COL.navLinkTextColor};
+  // display: flex;
+  // align-items: center;
+  // text-decoration: none;
+  // padding: 0 1rem;
+  // height: 100%;
+  // cursor: pointer;
+
+  // &.active {
+  //   border-bottom: 3px solid ${COL.activeColor};
+  // }
+
+  color: ${COL.logoTextColor};
+  justify-self: flex-start;
+  display: flex;
+  cursor: pointer;
+  font-size: 1.5rem;
+  align-items: center;
+  margin-left: 24px;
+  font-weight: bold;
+  text-decoration: none;
 `;
 
 export const NavLink = styled(LinkS)`
