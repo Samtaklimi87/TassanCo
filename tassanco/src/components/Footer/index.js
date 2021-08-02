@@ -6,10 +6,13 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
+
+import { animateScroll as scroll } from "react-scroll"; 
 import {
   FooterContainer,
   FooterWrap,
   FooterLinksContainer,
+  Ddddd,
   FooterLinksWrapper,
   FooterLinksItems,
   FooterLinkTitle,
@@ -24,6 +27,11 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  }
+
   return (
     <>
       <FooterContainer>
@@ -39,7 +47,7 @@ const Footer = () => {
               </FooterLinksItems>
               <FooterLinksItems>
                 <FooterLinkTitle>Granty Servies</FooterLinkTitle>
-                <FooterLink to="/signin">How it works</FooterLink>
+                <Ddddd smooth={true} duration={1000} spy={true} to="about">Top</Ddddd>
                 <FooterLink to="/signin">Testomonials</FooterLink>
                 <FooterLink to="/signin">Careers</FooterLink>
                 <FooterLink to="/signin">Terms of services</FooterLink>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 import COL from "../Colors";
 
@@ -51,6 +52,18 @@ export const FooterLinksItems = styled.div`
     margin: 0;
     padding: 10px;
     width: 100%;
+  }
+`;
+
+export const Ddddd = styled(LinkS)`
+  color: ${COL.footerLinkItemsColor};
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  &:hover {
+    color: ${COL.FooterLinkOnHoverColor};
+    transition: 0.3s ease-out;
   }
 `;
 
