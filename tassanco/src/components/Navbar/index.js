@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
                   onClick={() => {
                       console.log("pressed");
                   }} 
-                  to="/signin"
+                  to="/contact"
                   >
                      Click Here 
                 </NavBtnLink>

@@ -49,6 +49,13 @@ const COL = {
   FooterLinkOnHoverColor: "#01bf71",
   socialMediaIconColor: "#fff",
   footerSocialMediaTextColor: "#fff",
+  //contact 
+  signinIconColor: "#fff",
+  formBckGround: "#010101",
+  formH1Color: "#fff",
+  formBtnBckColor: "#01bf71",
+  formBtnTextColor: "#fff",
+  formSpanColor: "#fff",
 };
 
 export default COL;
